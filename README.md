@@ -4,17 +4,15 @@ The Hong Kong University of Science and Technology
 
 https://openreview.net/forum?id=SJxhNTNYwB
 
+Abstract : "We present a new method for black-box adversarial attack. Unlike previous methods that combined transfer-based and scored-based methods by using the gradient or initialization of a surrogate white-box model, this new method tries to learn a low-dimensional embedding using a pretrained model, and then performs efficient search within the embedding space to attack an unknown target network. The method produces adversarial perturbations with high level semantic patterns that are easily transferable. We show that this approach can greatly improve the query efficiency of black-box adversarial attack across different target network architectures. We evaluate our approach on MNIST, ImageNet and Google Cloud Vision API, resulting in a significant reduction on the number of queries. We also attack adversarially defended networks on CIFAR10 and ImageNet, where our method not only reduces the number of queries, but also improves the attack success rate."
 
 
-## Sources intéressantes et état de l'art pour bien comprendre le modèle 
+## STATE OF THE ART 
 
 
-### Modèles de base sur Seq2seq et modèle d'attention
-Seq2Seq Learning : Sutskever et al (2014) https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf
-Attention based mechanism : Bahdhanau et al (2014) https://arxiv.org/pdf/1409.0473.pdf
+### White-box attack
 
-### Architectures avancées qui utilisent des modèles d'attention
-Papier sur les transformers : Attention is all you need https://arxiv.org/pdf/1706.03762.pdf
+### Black-box attack
 
 
 ### Neural Phrase based-translation model 
